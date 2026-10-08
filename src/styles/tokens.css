@@ -1,7 +1,10 @@
-/* 个人网页 v1 · 设计规范（产品设计出，供全栈工程直接引用） */
+/* 个人网页 v1.1 · 设计规范（卡片 v2：只放主帖 + 浮起卡片）（产品设计出，供全栈工程直接引用） */
 :root{
   /* 颜色：黑白为主，不设品牌强调色 */
-  --c-bg:#FFFFFF;          /* 页面背景 */
+  --c-bg:#F6F6F4;          /* 页面背景：暖灰，让白卡片浮起来（v2 改） */
+  --c-card:#FFFFFF;        /* 卡片底色 */
+  --c-card-border:rgba(10,10,10,.06); /* 卡片极淡描边 */
+  --c-divider:#F0F0EE;     /* 卡片内分隔线 */
   --c-surface:#FAFAFA;     /* 引用推文、空态框底色 */
   --c-text:#0A0A0A;        /* 主文字、主按钮底色 */
   --c-text-2:#6B6B6B;      /* 次要文字：@账号、日期、副标题 */
@@ -17,13 +20,19 @@
   /* 间距：4 的倍数 */
   --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px; --sp-8:32px; --sp-12:48px; --sp-16:64px;
   /* 圆角 */
-  --r-card:16px; --r-media:12px; --r-pill:999px;
+  --r-card:20px; --r-media:0; /* 配图贴满卡片边缘，不单独圆角 */ --r-pill:999px;
   /* 布局 */
   --w-content:960px;       /* 内容最大宽度，居中 */
-  --grid-gap:20px;         /* 卡片间距 */
+  --grid-gap:24px;         /* 卡片间距（v2 改） */
+  --media-ratio:16/9;      /* 配图/视频封面统一裁切比例 */
+  --text-clamp:5;          /* 正文最多显示行数 */
+  --fs-text-only:19px;     /* 纯文字卡正文字号 */
+  --shadow-card:0 1px 2px rgba(0,0,0,.04),0 10px 30px -8px rgba(0,0,0,.10);
+  --shadow-card-hover:0 2px 4px rgba(0,0,0,.05),0 18px 40px -10px rgba(0,0,0,.18);
+  --lift-hover:translateY(-2px);
   /* 动效 */
-  --t-fast:150ms ease;
+  --t-fast:150ms ease; --t-card:200ms ease;
 }
 @media (max-width:719px){
-  :root{ --fs-hero:30px; --fs-h2:20px; --fs-body:15px; --grid-gap:12px; }
+  :root{ --fs-hero:30px; --fs-h2:20px; --fs-body:15px; --grid-gap:16px; --fs-text-only:17px; }
 }
