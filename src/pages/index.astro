@@ -8,22 +8,29 @@ const items = [...featured.items].sort((a, b) => b.created_at.localeCompare(a.cr
 const base = import.meta.env.BASE_URL;
 const xUrl = `https://x.com/${site.handle}`;
 const size = site.featuredPageSize;
+const ogImage = new URL(`${base}icon-512.png`, Astro.site).href;
 ---
 <!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{site.name} · @{site.handle}</title>
-  <meta name="description" content={site.bio} />
-  <link rel="icon" href={`${base}avatar.png`} />
-  <meta property="og:title" content={`${site.name} · @${site.handle}`} />
+  <title>{site.name}</title>
+  <meta name="description" content={`${site.name} · ${site.disclaimer}`} />
+  <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+  <link rel="icon" href={`${base}favicon-32.png`} sizes="32x32" type="image/png" />
+  <link rel="icon" href={`${base}favicon-16.png`} sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:title" content={site.name} />
   <meta property="og:description" content={site.bio} />
-  <meta property="og:image" content={`${base}avatar.png`} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary" />
 </head>
 <body>
   <nav class="nav wrap">
-    <a class="logo" href={base}>{site.name}</a>
+    <a class="logo" href={base}><img class="logo-mark" src={`${base}logo-tile-dark.svg`} alt="" width="32" height="32" /><span>{site.name}</span></a>
     <div class="navr">
       <a class="on" href="#featured">精选推文</a>
       <a class="iconbtn" href={xUrl} target="_blank" rel="noopener" aria-label="X 主页">𝕏</a>
@@ -31,7 +38,7 @@ const size = site.featuredPageSize;
   </nav>
   <main class="wrap">
     <section class="hero">
-      <img class="av" src={`${base}avatar.png`} alt={site.name} width="96" height="96" />
+      <img class="av" src={`${base}logo-tile-dark.svg`} alt={site.name} width="96" height="96" />
       <div class="hcopy">
         <h1 class="hname">{site.name}</h1>
         <div class="handle">@{site.handle}</div>
@@ -64,8 +71,11 @@ const size = site.featuredPageSize;
     </section>
   </main>
   <footer class="foot wrap">
-    <span>© {new Date().getFullYear()} {site.name}</span>
-    <a href={xUrl} target="_blank" rel="noopener">𝕏 @{site.handle}</a>
+    <p class="disclaimer">{site.disclaimer}</p>
+    <div class="footrow">
+      <span>© {new Date().getFullYear()} {site.name}</span>
+      <a href={xUrl} target="_blank" rel="noopener">𝕏 @{site.handle}</a>
+    </div>
   </footer>
   <script>
     // 超过 8 行折叠，显示「展开全文」

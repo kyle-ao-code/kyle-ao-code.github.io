@@ -13,7 +13,7 @@
   --c-border-strong:#0A0A0A; /* hover 描边、精选标记描边 */
   --c-link:#0A0A0A;        /* 正文内链接：黑色 + 下划线 */
   /* 字体：英文 Inter，中文系统字 */
-  --font-sans:"Inter","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --font-sans:"Inter","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji";
   --fs-hero:40px; --fs-h2:24px; --fs-body:16px; --fs-meta:13px; --fs-badge:12px;
   --lh-body:1.65;
   --fw-regular:400; --fw-semibold:600; --fw-bold:750;
