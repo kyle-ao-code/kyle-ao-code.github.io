@@ -1,0 +1,89 @@
+---
+import '../styles/tokens.css';
+import '../styles/site.css';
+import TweetCard from '../components/TweetCard.astro';
+import site from '../site.json';
+import featured from '../data/featured.json';
+const items = [...featured.items].sort((a, b) => b.created_at.localeCompare(a.created_at));
+const base = import.meta.env.BASE_URL;
+const xUrl = `https://x.com/${site.handle}`;
+const size = site.featuredPageSize;
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{site.name} · @{site.handle}</title>
+  <meta name="description" content={site.bio} />
+  <link rel="icon" href={`${base}avatar.png`} />
+  <meta property="og:title" content={`${site.name} · @${site.handle}`} />
+  <meta property="og:description" content={site.bio} />
+  <meta property="og:image" content={`${base}avatar.png`} />
+</head>
+<body>
+  <nav class="nav wrap">
+    <a class="logo" href={base}>{site.name}</a>
+    <div class="navr">
+      <a class="on" href="#featured">精选推文</a>
+      <a class="iconbtn" href={xUrl} target="_blank" rel="noopener" aria-label="X 主页">𝕏</a>
+    </div>
+  </nav>
+  <main class="wrap">
+    <section class="hero">
+      <img class="av" src={`${base}avatar.png`} alt={site.name} width="96" height="96" />
+      <div class="hcopy">
+        <h1 class="hname">{site.name}</h1>
+        <div class="handle">@{site.handle}</div>
+        <p class="bio">{site.bio}</p>
+        <a class="btn primary" href={xUrl} target="_blank" rel="noopener">𝕏 在 X 关注</a>
+      </div>
+    </section>
+
+    <!-- 模块：精选推文。以后新模块按同样的 section.module 往下插 -->
+    <section class="module" id="featured">
+      <div class="sechead">
+        <div><h2 class="h2">精选推文</h2><p class="sub">每日从我的 X 里挑出来的</p></div>
+        {items.length > 0 && <span class="count">共 {items.length} 条</span>}
+      </div>
+      {items.length === 0 ? (
+        <div class="empty">
+          <div class="star">★</div>
+          <div class="et">第一批精选正在挑选中</div>
+          <p class="sub">在这之前，可以先去 X 看看我最近在聊什么。</p>
+          <a class="btn primary" href={xUrl} target="_blank" rel="noopener">去 X 看 @{site.handle} ↗</a>
+        </div>
+      ) : (
+        <>
+          <div class="grid">
+            {items.map((item, i) => <TweetCard item={item} hidden={i >= size} />)}
+          </div>
+          {items.length > size && <div class="more"><button class="btn" id="more" type="button" data-size={size}>加载更多</button></div>}
+        </>
+      )}
+    </section>
+  </main>
+  <footer class="foot wrap">
+    <span>© {new Date().getFullYear()} {site.name}</span>
+    <a href={xUrl} target="_blank" rel="noopener">𝕏 @{site.handle}</a>
+  </footer>
+  <script>
+    // 超过 8 行折叠，显示「展开全文」
+    document.querySelectorAll<HTMLElement>('.card').forEach((card) => {
+      const txt = card.querySelector<HTMLElement>('.txt.clamp');
+      const btn = card.querySelector<HTMLButtonElement>('.expand');
+      if (!txt || !btn) return;
+      const check = () => { if (txt.classList.contains('clamp')) btn.hidden = txt.scrollHeight <= txt.clientHeight + 2; };
+      check(); new ResizeObserver(check).observe(txt);
+      btn.addEventListener('click', () => { txt.classList.remove('clamp'); btn.hidden = true; });
+    });
+    // 加载更多：每次再显示一页
+    const more = document.getElementById('more');
+    more?.addEventListener('click', () => {
+      const hidden = [...document.querySelectorAll<HTMLElement>('.card[data-hidden]')];
+      hidden.slice(0, Number(more.dataset.size)).forEach((c) => c.removeAttribute('data-hidden'));
+      if (hidden.length <= Number(more.dataset.size)) more.parentElement?.remove();
+    });
+  </script>
+</body>
+</html>

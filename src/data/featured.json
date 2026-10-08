@@ -1,0 +1,470 @@
+{
+ "generated_at": "2026-10-08T13:17:11.055876+08:00",
+ "items": [
+  {
+   "id": "2105251947184071012",
+   "url": "https://x.com/kylewmi/status/2105251947184071012",
+   "created_at": "2026-09-30T19:02:32+08:00",
+   "text": "你有你的白宫超级智能峰会，\n我有我的首尔Hyperliquid峰会。\n\n今天的 KBW 主会场访谈，jeff 还是输出了不少新观点，我提炼了几段印象深刻的：\n\n1）加密本来就是全球资产，传统交易所从 24/5 往 24/7 走，说明需求是真的。\n\n2）链上的价值不在交易时间，而在两点：用户自己掌握资产，以及透明带来的中立。\n\n3）下一个机会是私募市场。财富大多在私募阶段创造，让全球尽早对它们做价格发现，才有机会打破这个格局。\n\n4）资产代币化还没起飞，谁能赢不好说，这也是中立基础设施的美：不是谁大谁赢，小团队同样有机会。\n\n@chameleon_jeff 说的这段最有感触：Hyperliquid 不是某家公司的生意。 是一群贡献者和用户，一起搭一个大家共有、不被资本 (私人利益) 左右的金融系统。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2105134183089942706",
+    "url": "https://x.com/KORypto_JUN/status/2105134183089942706",
+    "author_name": "JUN.hl",
+    "author_handle": "KORypto_JUN",
+    "created_at": "2026-09-30T11:14:35+08:00",
+    "text": "Interview Summary: 24/7 Trading on Hyperliquid (@Joonylive  × Jeff Yan)\n\nJoony Koo: Two years ago, the prevailing view was that markets should close because of risk, rest, and off-hours liquidity. Was there a moment when that view broke for you?\n\nJeff Yan: Crypto is an inherently international asset, so the idea of market hours never really fit, and 24/7 has always been the default. It started to matter for traditional assets when the incumbent exchanges began extending their hours. They didn't go straight to 24/7, they went to 24/5, but it became clear they had recognized customer demand and were responding to it.\n\nJoony Koo: Incumbents are now matching the hours. What is left that an on-chain venue can offer?\n\nJeff Yan: Trading hours are independent of being on-chain. The core of on-chain finance is two things. First, users keep control and custody of their funds. That doesn't matter day to day, but it matters in critical moments, when counterparties, intermediaries, or custodians run into trouble. Reducing trust assumptions and moving power to individuals rather than a single point of failure makes the system more robust. Second, transparency. It has limited mass appeal, but being able to know, in theory, everything happening in the system brings a trust and neutrality you don't get from a system controlled by one private organization. You can have 24/7 trading without these properties, but these are what on-chain markets can offer the world.\n\nJoony Koo: This year commodities, equities, and pre-IPO names traded at scale, and price discovery sometimes happened while the reference markets were closed. What did the team learn from watching the two run side by side?\n\nJeff Yan: The clearest lesson is that demand for 24/7 trading exists. You wouldn't know without these markets, but the world doesn't sleep as a whole. Global 24/7 markets concentrate liquidity across more buyers and sellers, making markets more efficient and liquid for everyone. There will always be someone, somewhere, who wants to express a view, so once the option exists, those markets become the Schelling point where people go to do that.\n\nJoony Koo: HIP-3 lets independent teams create markets, and institutions are building on top too. If anyone can build, what is Labs focusing on?\n\nJeff Yan: Labs specializes in the technology and infrastructure that supports deployers. What a deployer needs varies widely depending on who they are, where they're based, who their users are, and what they want to list, and the list is long. The vision is for Hyperliquid to be a neutral infrastructure layer, like AWS, which spared startups and large firms from reinventing the wheel. Financial primitives like order books should become pervasive and battle-tested infrastructure, and making that work for everyone is the primary mandate.\n\nJoony Koo: The \"AWS for finance\" analogy reminds me of working at a game company when people debated whether the cloud could be trusted. What open problems would Labs most like to see others solve?\n\nJeff Yan: First, builders should find something they're uniquely positioned to do, given their interests and competitive advantages, and we'll support whatever they build. One specific hard problem is tokenizing the underlying assets themselves. Custody, liquidity, and the mechanics are all harder, so it hasn't taken off yet. I hope to see strong projects and builders next year, because having the assets represented on-chain synergizes with price discovery and liquidity.\n\nJoony Koo: Tokenization is speeding up as more institutions get involved. Any advice for smaller teams?\n\nJeff Yan: Many teams, big and small, are working on tokenization, but it hasn't hit escape velocity and it's unclear who will succeed. That's the beauty of neutral infrastructure: you don't win just because you're big, though big teams may have legitimate advantages like institutional connectivity. Viral products often come from small teams that see the world differently and think less rigidly. Perps are intuitive and fair instruments that concentrate liquidity across the globe and across all time horizons into one asset, so they're easy to present to users. Some small team may even reinvent how the interfaces look.\n\nJoony Koo: You spent three days with the Korean community this week. What stood out?\n\nJeff Yan: Like last year, I felt the hospitality, and I'm grateful to everyone who organized events. The community here is strong, and trading is a core part of many Koreans' lives, so it was great to discuss how on-chain markets and HIP-3 would change their approach to markets. Talking to users and the community inspires us to keep building.\n\nJoony Koo: And your meetings with institutions?\n\nJeff Yan: It's cool to see institutions interested in the platform and building on top of it. They're understandably slower to adopt new technology because they have a lot to protect, but as this year has shown, the appetite is significant.\n\nJoony Koo: Last question: what is next to be priced 24/7 that has no continuous price today?\n\nJeff Yan: Nothing specific, but private markets are a big opportunity, and you already see some of it through HIP-3 deployers. Much wealth creation happens privately, because companies have incentives to stay private as long as possible. It isn't intended to exclude most of the world's population, but that's what happens in practice. Allowing global price discovery on these assets as early as possible, in a global system not confined to one jurisdiction, could break that trend. There are many complexities to work through, but markets exist so everyone can benefit from them, and trading anything, anytime, anywhere has the most potential here.\n\nJoony Koo: Any final remarks?\n\nJeff Yan: Hyperliquid's core strength is its community and people. It's not one company doing what's best for itself, but a decentralized network of contributors and users building a financial system owned by the people rather than by private interests. There's a long way to go and many challenges, but seeing everyone in Seoul, I feel we're in good hands, and we'll build something the financial system can ultimately adopt.\n\n@kbwofficial @HyperliquidX",
+    "media": [
+     {
+      "type": "photo",
+      "src": "media/3_2105134086448934912.jpg",
+      "w": 1280,
+      "h": 960,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2105233506444206080.jpg",
+     "w": 1281,
+     "h": 1431,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2105214408032948447",
+   "url": "https://x.com/kylewmi/status/2105214408032948447",
+   "created_at": "2026-09-30T16:33:22+08:00",
+   "text": "Bitget $3.88 亿赃款出金路径：\n\n多链打散 → 稳定币秒换 ETH 躲冻 → 桥被拦立刻换路 → 全部收成 BTC → CoinJoin 混币 → 场外变现\n\n主路 A 还是 THORChain，这部分就不展开。主路 B 是通过 Chainflip 换 BTC，但黑客地址直接操作会被拒。\n\n所以这次是多了一个新套路：黑客先在 CoW 下单，收款地址直接填成 Chainflip 的 Deposit 地址，这一伪装就能成交、跨链出 BTC。\n\n这骚操作在 Chainflip 眼里，是很难看出是黑客地址转来的，更像一笔普通 DEX 成交，就这么混过去了。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2105111238166675498",
+    "url": "https://x.com/kylewmi/status/2105111238166675498",
+    "author_name": "Kyle_13 (烹饪版)👨‍🍳",
+    "author_handle": "kylewmi",
+    "created_at": "2026-09-30T09:43:24+08:00",
+    "text": "Bitget CEO (Gracy) 昨天在 Cointelegraph 的访谈中，很坚决地认定这次作案的就是“朝鲜黑客”。\n\n攻击行为模式、手法和洗钱路径都表明与某个朝鲜黑客组织有关联。\n\n也是在同一天，洗钱团伙知道 THORChain 不配合冻结后，公然在 Discord 催进度，真抽象啊！最后黑客还是成功通过 THORChain 把 XRP / BNB / TRX / ETH 换成 BTC，Bitget 基本只能认栽了...",
+    "media": [
+     {
+      "type": "video",
+      "src": "media/13_2105106442730745856.jpg",
+      "w": 1920,
+      "h": 1080,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2105209884946141184.jpg",
+     "w": 1215,
+     "h": 1101,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2105172516566417575",
+   "url": "https://x.com/kylewmi/status/2105172516566417575",
+   "created_at": "2026-09-30T13:46:54+08:00",
+   "text": "借着神鱼说的“寻找凸性”，我强烈推荐大家好好听下《无人知晓》播客 E43❗\n\n<张潇雨、孟岩对话许哲：没有更好的生活>\n\n世界本质 (黑天鹅和肥尾) → 反脆弱与凸性 → 无常/无我/无明 → 没有更好的生活 → 爱命运\n\n不止是带你领略“凸性”，最终落在 say yes to life\n\nh/t @xiaoyuz",
+   "is_quote": true,
+   "quoted": {
+    "id": "2104818893651112361",
+    "url": "https://x.com/bitfish/status/2104818893651112361",
+    "author_name": "DiscusFish",
+    "author_handle": "bitfish",
+    "created_at": "2026-09-29T14:21:44+08:00",
+    "text": "交易中的圣杯在寻找凸性结构  Opus5.5解说版",
+    "media": [
+     {
+      "type": "video",
+      "src": "media/13_2104817298771197952.jpg",
+      "w": 1920,
+      "h": 1080,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "video",
+     "src": "media/13_2105172239738167296.jpg",
+     "w": 1920,
+     "h": 1080,
+     "alt": ""
+    }
+   ],
+   "thread_count": 4
+  },
+  {
+   "id": "2105111238166675498",
+   "url": "https://x.com/kylewmi/status/2105111238166675498",
+   "created_at": "2026-09-30T09:43:24+08:00",
+   "text": "Bitget CEO (Gracy) 昨天在 Cointelegraph 的访谈中，很坚决地认定这次作案的就是“朝鲜黑客”。\n\n攻击行为模式、手法和洗钱路径都表明与某个朝鲜黑客组织有关联。\n\n也是在同一天，洗钱团伙知道 THORChain 不配合冻结后，公然在 Discord 催进度，真抽象啊！最后黑客还是成功通过 THORChain 把 XRP / BNB / TRX / ETH 换成 BTC，Bitget 基本只能认栽了...",
+   "is_quote": true,
+   "quoted": {
+    "id": "2104127183103074662",
+    "url": "https://x.com/kylewmi/status/2104127183103074662",
+    "author_name": "Kyle_13 (烹饪版)👨‍🍳",
+    "author_handle": "kylewmi",
+    "created_at": "2026-09-27T16:33:07+08:00",
+    "text": "为什么黑客都钟爱 THORChain？\n\n无论是之前 Bybit/KelpDAO，还是前天 Bitget 被盗的赃款，全都在这过...\n\n看黑客典型的出金路径就知道了：盗币 (多在 EVM) → 分散地址休眠 → 换成原生 BTC (或再跳 XMR/ZEC) → OTC / 场外变现\n\n这里面的关键是，只要赃款换成了原生 BTC，就几乎没人冻得了，走 OTC 就能变现。THORChain 会成为黑客出金的温床原因很多，但主因是它支持原生跨链 (真 ETH 换成真 BTC)。\n\n安全研究员 Taylor Monahan 去年接受 CoinDesk 采访时就曾表达过：THORChain 出现之前，ETH 换成 BTC 几乎一定会被冻。\n\n黑客但凡走 CEX 或第三方桥，都很容易被冻。当时 KelpDAO 被盗时，Arbitrum 就冻住了约 7100 万美元的 ETH。\n\n另外，黑客赃款动辄千万、上亿美金，“于情于理”节点本身就没什么动力关闸。你看～在这节点上，THORChain 单日收入已创近 5 个月新高了...",
+    "media": [
+     {
+      "type": "photo",
+      "src": "media/3_2104112654294114304.jpg",
+      "w": 1121,
+      "h": 631,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "video",
+     "src": "media/13_2105106442730745856.jpg",
+     "w": 1920,
+     "h": 1080,
+     "alt": ""
+    }
+   ],
+   "thread_count": 2
+  },
+  {
+   "id": "2104839192232829170",
+   "url": "https://x.com/kylewmi/status/2104839192232829170",
+   "created_at": "2026-09-29T15:42:24+08:00",
+   "text": "感觉是 Gate 一步一步陷入了「认知失调」的泥潭，这场和美少女的拉锯战竟然已经快三个月了...\n\n现在的 Gate 无论做些什么似乎都没有收益了，早期还有挽回的机会，现在给行业留下的印象：\n\n- 于情：嘲讽、引导仙人跳、开盒\n- 于理：不认责任、就是不赔、冷战\n\n完整时间线👇",
+   "is_quote": true,
+   "quoted": {
+    "id": "2104814620649374004",
+    "url": "https://x.com/jheioff/status/2104814620649374004",
+    "author_name": "第一美少女",
+    "author_handle": "jheioff",
+    "created_at": "2026-09-29T14:04:45+08:00",
+    "text": "170万USDT被盗，Gate的“负责到底”最后只剩沉默。\n\n我把账户被接管的经过、审核疑点和后续沟通整理在了这篇文章里。钱没赔，事情没解决。\n\n请帮我转发，别让这件事被拖到无人再提。\n\n@Gate_zh @Han_Gate #Gate https://x.com/i/article/2104809320009605120",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2104837739103567872.jpg",
+     "w": 1499,
+     "h": 4096,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2104765780361703584",
+   "url": "https://x.com/kylewmi/status/2104765780361703584",
+   "created_at": "2026-09-29T10:50:41+08:00",
+   "text": "上次海力士异常插针事件，就已经有人预示过 TradeXYZ 无法处理拆股情况，现在真给遇上了。\n\n不过这不是 TradeXYZ 有意而为之，主要是协议层的束缚，它文档也说明了：Hyperliquid 目前不支持对永续仓位按拆股比例调整 (rescale)。\n\n其实今年 8 月，HIP-1 现货已经做好了拆股功能（还没上线）。HIP-3 什么时候跟进还不知道...技术上其实很好实现，可能主要是卡在 HIP-3 部署商的权限设计上，毕竟系统性风险更大。\n\n虽然拆股是低频事件，但一旦发生就得重新开市，其实挺影响用户体验，后面应该会看到 jeff/核心团队在这块开大火做饭👨‍🍳。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2103523736078987490",
+    "url": "https://x.com/tradexyz/status/2103523736078987490",
+    "author_name": "trade.xyz",
+    "author_handle": "tradexyz",
+    "created_at": "2026-09-26T00:35:14+08:00",
+    "text": "In connection with Kioxia Holdings' 3-for-1 stock split, TradeXYZ will suspend trading and settle all open xyz:KIOXIA perpetual positions at approximately 06:35 UTC on Monday, 28 September 2026. To re-establish exposure after reopening, traders must open new positions and submit new orders.\n\nFor more details on the settlement and reopening procedure for Kioxia's 3-for-1 stock split, see here: https://docs.trade.xyz/perpetuals/corporate-actions/2026-09-28-kioxia-stock-split",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2104757177676410880.jpg",
+     "w": 1852,
+     "h": 936,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2104127183103074662",
+   "url": "https://x.com/kylewmi/status/2104127183103074662",
+   "created_at": "2026-09-27T16:33:07+08:00",
+   "text": "为什么黑客都钟爱 THORChain？\n\n无论是之前 Bybit/KelpDAO，还是前天 Bitget 被盗的赃款，全都在这过...\n\n看黑客典型的出金路径就知道了：盗币 (多在 EVM) → 分散地址休眠 → 换成原生 BTC (或再跳 XMR/ZEC) → OTC / 场外变现\n\n这里面的关键是，只要赃款换成了原生 BTC，就几乎没人冻得了，走 OTC 就能变现。THORChain 会成为黑客出金的温床原因很多，但主因是它支持原生跨链 (真 ETH 换成真 BTC)。\n\n安全研究员 Taylor Monahan 去年接受 CoinDesk 采访时就曾表达过：THORChain 出现之前，ETH 换成 BTC 几乎一定会被冻。\n\n黑客但凡走 CEX 或第三方桥，都很容易被冻。当时 KelpDAO 被盗时，Arbitrum 就冻住了约 7100 万美元的 ETH。\n\n另外，黑客赃款动辄千万、上亿美金，“于情于理”节点本身就没什么动力关闸。你看～在这节点上，THORChain 单日收入已创近 5 个月新高了...",
+   "is_quote": true,
+   "quoted": {
+    "id": "2104089908700909954",
+    "url": "https://x.com/GuHype/status/2104089908700909954",
+    "author_name": "孤鹤.hl",
+    "author_handle": "GuHype",
+    "created_at": "2026-09-27T14:05:00+08:00",
+    "text": "@kylewmi THOR的业务本身就是洗钱，黑客开张就是他们开张的时候，当然不会冻黑客了，主要原因还是这钱就算冻住了也是要还的，如果给交了足够上岸的保护费，说不定人家就帮一次忙然后退休了。",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2104112654294114304.jpg",
+     "w": 1121,
+     "h": 631,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2104051398111633521",
+   "url": "https://x.com/kylewmi/status/2104051398111633521",
+   "created_at": "2026-09-27T11:31:59+08:00",
+   "text": "THORChain 这条回应，评论区基本是一边倒地骂。\n\n大家最受不了的就是“双标”。5 月 THORChain 自己被盗 $1070 万，节点投票全网停机，一停就是一个多月。\n\n这次 Bitget 被盗 $3.8 亿，黑客的钱照样从它这里换成 BTC，就开始说自己和 Bitcoin 一样去中心化，管不了。\n\n完整时间线👇",
+   "is_quote": true,
+   "quoted": {
+    "id": "2103911825490203083",
+    "url": "https://x.com/THORChain/status/2103911825490203083",
+    "author_name": "THORChain",
+    "author_handle": "THORChain",
+    "created_at": "2026-09-27T02:17:22+08:00",
+    "text": "We are devasted to hear about the recent exploit and can imagine how difficult this must be for everyone involved.\n\nTHORChain is decentralized and permissionless like Bitcoin, Ethereum, and BNB Chain.\n\nWhat responsibility should Bitcoin, Ethereum, and BNB Chain bear when handling known stolen funds?\n\n@star_okx @GracyBitget",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2104050050720841728.jpg",
+     "w": 2400,
+     "h": 3376,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2103043603996311602",
+   "url": "https://x.com/kylewmi/status/2103043603996311602",
+   "created_at": "2026-09-24T16:47:22+08:00",
+   "text": "当年 @colinwu 采访 jeff 说，问了一个问题：HYPE 上线时为什么没上任何 CEX？\n\n@chameleon_jeff 的回答是：\n\n我们的框架一直专注于构建和创造用户想要的东西，不太在乎别人怎么做。我们只是专注，彻底专注于正在做的事。团队很小，没有 BD；有人负责社区和生态，但没有像别的公司那样面向机构的全职团队。\n\n所以没有足够资源去处理上市。每个平台自己决定上不上，我们都能接受任何结果。有平台想上我们的代币，那很棒——他们的用户会接触到产品；不上也没关系，只要技术做好，之后他们也可能上。真正关心 Hyperliquid 的人会主动找到我们。\n\n假设有热心用户很在意却找不到我们、自己去试一下，这也不是坏结果。根本原因只是：我们没有能力做超出核心职能的事情。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2103025523744256318",
+    "url": "https://x.com/kylewmi/status/2103025523744256318",
+    "author_name": "Kyle_13 (烹饪版)👨‍🍳",
+    "author_handle": "kylewmi",
+    "created_at": "2026-09-24T15:35:31+08:00",
+    "text": "这算谁的利好？\n\n币安 DONE ✅ 下一位！\n\nHyperliquid $HYPE",
+    "media": [
+     {
+      "type": "photo",
+      "src": "media/3_2103025075331190784.jpg",
+      "w": 1334,
+      "h": 640,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2103040634127024129.jpg",
+     "w": 1920,
+     "h": 1080,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2102958883304321508",
+   "url": "https://x.com/kylewmi/status/2102958883304321508",
+   "created_at": "2026-09-24T11:10:43+08:00",
+   "text": "太牛了 🧐 @hl_eco 新增了「追踪 Hyperliquid 团队解锁代币流向」板块，可以看到团队总计解锁了 5.79M $HYPE ($5.36 亿)。\n\n- 7.9% Held · Staked：还在原接收地址，并且处于质押状态\n- 3.3% Held · Spot：还在原接收地址，没质押的现货余额\n- 66.5% Sent out：已经转出原接收地址，不一定等于卖掉\n- 22.3% Sold · Inferred：流水形态看起来已经离开团队体系，像卖掉了\n\n之前在 When Shift Happens 播客中主持人就问过 jeff 相关的问题：员工解锁会不会每个月往市场上灌数亿美元？jeff 的回答是——这不应成为公共审视的对象，也不是他的职责去评判或披露。\n\n当时看到这段我是觉得 jeff 说得很公允。游戏规则一开始就讲好了的，不想玩的人可以不玩，何况团队实际情况是更为克制。再者，代币一旦归属到团队成员的名下，就是他们的个人资产了，他们怎么处置的确是他们的自由。只是链上完全透明，肯定还是会有好奇宝宝去追踪流向，也许可以指导交易决策。\n\n反正，只观察，不评判。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2102949856830779393.jpg",
+     "w": 3138,
+     "h": 1444,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2098403858498367799",
+   "url": "https://x.com/kylewmi/status/2098403858498367799",
+   "created_at": "2026-09-11T21:30:40+08:00",
+   "text": "这次准备放开 HIP-3 Funding Clamp，又是精细活。jeff 发的公告几乎没解释是什么，因为涉及的机制挺复杂、没那么好理解。\n\n简单理解是——\n\nPerp 是靠“资金费率”把合约价往真价上拽。HIP-3 的资金费率都是由四个变量决定的，之前唯有变量 clamp (夹紧区间) 是限死的，默认的是加密盘的灵敏度，其实对股票、外汇、原油这些市场不友好。\n\n现在 clamp 可以让部署者按 perp 品类自行设置参数了，离 House of All Finance 又近了一步👨‍🍳",
+   "is_quote": true,
+   "quoted": {
+    "id": "2098355242828198027",
+    "url": "https://x.com/0xMaxs/status/2098355242828198027",
+    "author_name": "九江月.hl",
+    "author_handle": "0xMaxs",
+    "created_at": "2026-09-11T18:17:30+08:00",
+    "text": "小夫厨房开餐喽，新饭端上来了🍳\n\nHyperliquid 要开放一个影响持仓成本的关键参数，HIP-3 部署方将获得更多的资金费率控制权✅\n\n根据 Jeff 9月11日的社区公告，下一次网络升级后，部署方可以自行设置 funding clamp。这个看起来很技术性的更新，值得关注👇\n\n1/3 什么变化？\n\n官方接口已列出 setFundingClamps，支持按标的设置：\n\n• 可调范围：0–1%\n• 默认值：0.03%\n• 参数采用8小时口径，资金费仍按小时结算。\n\n部署方此前已有利率项、费率倍率两项工具，这次进一步开放了公式内的调节参数。\n\n2/3 对持仓有什么影响？\n\nclamp 决定资金费率在多大程度上向利率基准靠拢。数值越大，费率维持在基准附近的缓冲区越宽；数值越小，费率越容易随合约溢价、折价变化。\n\n举个简化例子：假设平均溢价0.10%、利率项0.01%、倍率1，按8小时口径计算：\n\n• clamp＝0.03% → 资金费率0.07%\n• clamp＝0.10% → 资金费率0.01%\n\n3/3 为什么值得关注？\n\nHIP-3 已覆盖股票、指数、商品和 Pre-IPO 等市场，各类资产的交易时段、定价和对冲条件都有差异。\n\n现在，部署方有了更多空间，针对不同资产平衡持仓成本与价格纠偏力度。\n\nHyperliquid🫡",
+    "media": [
+     {
+      "type": "photo",
+      "src": "media/3_2098355228169183232.jpg",
+      "w": 1179,
+      "h": 1329,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2098403852374679552.jpg",
+     "w": 1179,
+     "h": 1185,
+     "alt": ""
+    },
+    {
+     "type": "photo",
+     "src": "media/3_2098403852374671360.jpg",
+     "w": 998,
+     "h": 993,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2091200957648633940",
+   "url": "https://x.com/kylewmi/status/2091200957648633940",
+   "created_at": "2026-08-23T00:28:55+08:00",
+   "text": "虽然 Kraken 入局 HIP-3 尚未一锤定音🤔但咀嚼 @shaundadevens 文章后彻底打开了新思路——\n\n当下的节点，对于「想做永续合约生意的美国本土合规交易所」来说，有着难得一遇的“捷径”。\n\n参考 Coinbase，在美国本土推行衍生品 (永续合约)，花了多少力气：又是注册 FCM，又是收购现有 DCM，又是找外包 DCO 做清算。\n\n现在 CFTC 态度已经很明确，就是想尽办法将 Hyperliquid 以合规方式接入美国。\n\n一旦 @HyperliquidX 可以作为可信中立协议被使用，HyperCore 就覆盖了传统 DCM + DCO 的核心执行层；Deployer 负责上架运营，合规实体处理客户接入与 KYC (接近 FCM 角色)。\n\n意淫下 Kraken 的角度——押注 Hyperliquid 能合规进入美国，以 HIP-3 Deployer 入局，再用 Star 功能 (KYC) 做地址白名单管控，就能高效开展永续合约业务。\n\n直接省去了 Coinbase 的老路，包括自建撮合引擎与清算系统的重资产投入，以及对应的牌照成本。\n\n这不是“捷径”是什么？🧐\n这可能还是步弯道超车的大棋啊！",
+   "is_quote": true,
+   "quoted": {
+    "id": "2090841383808737654",
+    "url": "https://x.com/kylewmi/status/2090841383808737654",
+    "author_name": "Kyle_13 (烹饪版)👨‍🍳",
+    "author_handle": "kylewmi",
+    "created_at": "2026-08-22T00:40:06+08:00",
+    "text": "这消息要真落地了，会不会直接把 $HYPE 推到 100 美金？\n\nKraken 疑似正在入局 Hyperliquid，成为第一个合规 HIP-3 部署商。\n\n根据线索🧐：\n\n测试网上已经出现了名为 Kraken HIP-3 test DEX 的市场。\n\n从 8 月 19 日开始，这个市场就开启了 Star 权限控制 (仅白名单钱包可交易)，目前已白名单 10 个地址。\n\n并同步在测试开启权限、增删白名单、强制减仓平仓等功能。还有一个关键线索——还注册了 Kraken Exchange Validator 的验证节点。\n\n这似乎都已经板上钉钉了…\n\n再结合前几周 Kraken 旗下的 xStocks 一直在 HL 上 rwa 现货。当时觉得只是低调布局埋伏一波，没想到只看到了冰山一角。",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2091200945049001984.jpg",
+     "w": 2048,
+     "h": 1403,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2091098398703435928",
+   "url": "https://x.com/kylewmi/status/2091098398703435928",
+   "created_at": "2026-08-22T17:41:23+08:00",
+   "text": "站在今天看🧐「CEX 打不过就加入 Hyperliquid」的趋势更明朗了\n\n① VALR 前端接入\n非洲最大合规交易所\n\n② Coinbase (Base App) 前端接入\n美国最大合规交易所\n\n③ Kraken 疑似下场部署 HIP-3\n美国第二大合规交易所",
+   "is_quote": false,
+   "quoted": null,
+   "media": [],
+   "thread_count": 0
+  },
+  {
+   "id": "2087474185769816209",
+   "url": "https://x.com/kylewmi/status/2087474185769816209",
+   "created_at": "2026-08-12T17:40:03+08:00",
+   "text": "好消息啊！以后在 Hyperliquid 买 rwa 链上股票也可以拿到分红了。\n\n这次针对 HIP-1 的升级，完全就是为了 rwa 现货准备的。\n\n新增的 scaleWei 原语，就是为了让部署者可以完成 Token 面额重定、按持仓比例空投新 Token、按比例分发收益/奖励…\n\n这就是对应 rwa 现货未来可能要拆股、并股、股票分红、分拆。",
+   "is_quote": false,
+   "quoted": null,
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2087474176777220097.jpg",
+     "w": 1484,
+     "h": 1070,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2083525123190182030",
+   "url": "https://x.com/kylewmi/status/2083525123190182030",
+   "created_at": "2026-08-01T20:07:54+08:00",
+   "text": "大家不要将 HyperEVM 当作通用 EVM 生态来看待。\n\njeff 经常提醒，HyperEVM 的真正定位应该是进入 HyperCore 的无许可接口。\n\n因此，天赋的发挥是体现在 HyperEVM 对 HyperCore 原生能力的调用上。\n\n这里有一个最直观的范例——\n\n像 BounceTech @BounceTech 的思路是直接利用 HyperCore ⇆ HyperEVM 特性，推出了“杠杆代币”，将 Hyperliquid 的 perp 打包成 ERC-20 代币。\n\n相当于把玩永续合约的过程都抽象化了，买币即开单子，还能弄成 DeFi 产品。\n\n然而这里还有升级版玩法，Altfun @altdotfun 就索性基于 BounceTech，再叠加 Bonding Curve 机制，做了一个带杠杆版的 meme 发射平台。\n\n能发挥的方向很多。感觉 BounceTech 都可以往开放协议做了，往后新晋的“杠杆代币”项目，都可以站在 BounceTech 的肩膀上发挥才华。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2062131425252704733",
+    "url": "https://x.com/kylewmi/status/2062131425252704733",
+    "author_name": "Kyle_13 (烹饪版)👨‍🍳",
+    "author_handle": "kylewmi",
+    "created_at": "2026-06-03T19:16:58+08:00",
+    "text": "Hello，你好！\n\n请在今年夏天，\n把你的天赋带到 HyperEVM。",
+    "media": []
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2083525115686576128.jpg",
+     "w": 2048,
+     "h": 936,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  },
+  {
+   "id": "2081378246449635398",
+   "url": "https://x.com/kylewmi/status/2081378246449635398",
+   "created_at": "2026-07-26T21:56:58+08:00",
+   "text": "这帖子爆了，可见大家“居安思危”的紧绷情绪有了宣泄口。\n\n@tradexyz 最近的增长非常好，羽翼逐渐丰厚了，大家已经开始担心未来他飞走了怎么办…\n\n很好的讨论议题，我也有些零碎想法——\n\n1）TradeXYZ 的成功，其实是「HIP-3 + Builder」的成功。缺一不可，互相成就。\n\n2）TradeXYZ 现在主要丰满的是市场份额，不是底层基建能力。\n\n3）TradeXYZ 也不会为了「钱」而搬走，因为不存在更赚钱的地方。\n\n4）要逼得 TradeXYZ 另起炉自己干，必须满足两个条件：Hyperliquid 金融之家已无法满足 xyz 野心/愿景、且能力＞野心。\n\n5）因此故事的发展可能取决于 Hyperliquid 的战略眼光、迭代速度、以及 TradeXYZ 的野心与能力。\n\n6）现在讨论尚早，TradeXYZ 才刚开始长毛，远没到存量博弈阶段。大家居安思危，还是低估了 RWA perp 的天花板。\n\n7）藤蔓长得快不快，要看基因与土壤；藤蔓长得高不高，还得看「墙」。@HyperliquidX 只管砌又高又厚的墙，让上面长满藤蔓。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2080822001699070363",
+    "url": "https://x.com/0xTraderSam/status/2080822001699070363",
+    "author_name": "Sam",
+    "author_handle": "0xTraderSam",
+    "created_at": "2026-07-25T09:06:39+08:00",
+    "text": "As a HYPE bull during the Cambrian explosion of RWA perps, you should ask yourself the following questions:\n\n1) if TradeXYZ left Hyperliquid tomorrow and launched their own exchange, where would you go to trade RWA perps?\n\n2) if TradeXYZ launched a stock/token, how would you value HYPE differently?\n\n3) what is the likelihood of #1 and #2?\n\nI don’t intend to be a bear, but I’m pretty confident in my answers to #1 and #2 and I’m not naive enough to say I (or seemingly any major allocator) knows the answer to #3.\n\nAnd before the .hl’s whine in my comments, this is not meant to slight either protocol, it’s to state a fact: TradeXYZ holds a large and growing amount of leverage over Hyperliquid.",
+    "media": []
+   },
+   "media": [],
+   "thread_count": 0
+  },
+  {
+   "id": "2077230513656590664",
+   "url": "https://x.com/kylewmi/status/2077230513656590664",
+   "created_at": "2026-07-15T11:15:22+08:00",
+   "text": "这应该是 Hyperliquid 主动游说监管的最高规格了。\n\n昨天发起了与 SEC Crypto Task Force (负责加密资产监管的政策工作组) 对话会议，具体讨论——加密资产监管的应对路径。\n\n根据 SEC 的内部会议记录，这次领头的应该是 @HyperliquidR，Jeff、iliensinc 和 TradeXYZ 核心成员都有参会，“随行”的还有顶级律所 S&C 的四位律师。\n\nHyperliquid 相关代表还专门带上了附加文档 (Hyperliquid 协议的技术、市场和生态概述)，与 SEC 在会上进行了讨论。\n\n虽然还不知道会议中达成了什么实质性结论，但这个举措本身就代表了积极的信号，越沟通越清晰。另一方面是，HRC 成立后也的确很有作为，充分动用了资源与人脉，已经给 @HyperliquidX 打通了直接与监管对话的路径。",
+   "is_quote": true,
+   "quoted": {
+    "id": "2077091848854585805",
+    "url": "https://x.com/AggrNews/status/2077091848854585805",
+    "author_name": "Aggr News",
+    "author_handle": "AggrNews",
+    "created_at": "2026-07-15T02:04:21+08:00",
+    "text": "HYPERLIQUID POLICY CENTER AND http://TRADE.XYZ MET WITH SEC'S CRYPTO TASK FORCE TO ADDRESS CRYPTO REGULATION: WEBSITE",
+    "media": [
+     {
+      "type": "photo",
+      "src": "media/3_2077091847197913088.jpg",
+      "w": 1414,
+      "h": 626,
+      "alt": ""
+     }
+    ]
+   },
+   "media": [
+    {
+     "type": "photo",
+     "src": "media/3_2077219230458802176.jpg",
+     "w": 1424,
+     "h": 582,
+     "alt": ""
+    }
+   ],
+   "thread_count": 0
+  }
+ ]
+}

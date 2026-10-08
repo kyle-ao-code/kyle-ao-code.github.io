@@ -1,0 +1,41 @@
+---
+import { fmtDate, richText } from '../lib';
+import site from '../site.json';
+const { item, hidden = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const isThread = item.thread_count > 1;
+const media = item.media || [];
+---
+<article class="card" data-hidden={hidden ? '' : undefined}>
+  <header class="ch">
+    <img class="av sm" src={`${base}avatar.png`} alt="" width="36" height="36" />
+    <div>
+      <div class="nm">{site.name}</div>
+      <div class="mt">@{site.handle} · {fmtDate(item.created_at)}{isThread && <span class="tag">Thread · 共 {item.thread_count} 条</span>}</div>
+    </div>
+    <span class="badge">★ 精选</span>
+  </header>
+  <div class="txt clamp" set:html={richText(item.text) + (item.truncated ? '…' : '')} />
+  <button class="expand" type="button" hidden>展开全文</button>
+  {media.length > 0 && (
+    <div class={`media n${Math.min(media.length, 4)}`}>
+      {media.slice(0, 4).map((m: any) => (
+        <a href={m.type === 'photo' ? `${base}${m.src}` : item.url} target="_blank" rel="noopener" class={m.type !== 'photo' ? 'video' : ''}>
+          <img src={`${base}${m.src}`} alt={m.alt || ''} width={m.w} height={m.h} loading="lazy" />
+        </a>
+      ))}
+    </div>
+  )}
+  {item.quoted && (item.quoted.unavailable ? (
+    <a class="quote na" href={item.quoted.url} target="_blank" rel="noopener">引用的推文暂时无法显示，去 X 查看 ↗</a>
+  ) : (
+    <a class="quote" href={item.quoted.url} target="_blank" rel="noopener">
+      <div class="qh"><b>{item.quoted.author_name}</b> <span class="mt">@{item.quoted.author_handle} · {fmtDate(item.quoted.created_at)}</span></div>
+      <div class="txt q" set:html={richText(item.quoted.text).replace(/<a [^>]*>|<\/a>/g, '')} />
+      {item.quoted.media?.length > 0 && <img class="qimg" src={`${base}${item.quoted.media[0].src}`} alt="" loading="lazy" />}
+    </a>
+  ))}
+  <footer class="cf">
+    <a href={item.url} target="_blank" rel="noopener">{isThread ? '在 X 看完整 Thread ↗' : item.truncated ? '在 X 看全文 ↗' : '在 X 查看原推 ↗'}</a>
+  </footer>
+</article>
